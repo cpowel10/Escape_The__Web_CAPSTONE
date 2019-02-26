@@ -62,7 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuButtons1.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Puzzle_Script.cs" />
+    <Compile Include="Assets\Scripts\UILevel1.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/chris/Documents/Escape The Web/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
