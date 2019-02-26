@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         {
             //transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
             rbPlayer.velocity = new Vector2(rbPlayer.velocity.x , Input.GetAxisRaw("Vertical") * moveSpeed);
-            playerMoving = false;
+            playerMoving = true;
             lastMove = new Vector2(0f,Input.GetAxisRaw("Vertical"));
         }
 
