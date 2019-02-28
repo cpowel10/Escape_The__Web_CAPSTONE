@@ -6,25 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuButtons1 : MonoBehaviour
 {
     public GameObject MenuPanel;
-    public GameObject SettingsPanel;
     public GameObject TextPanel1;
 
     // Start is called before the first frame update
     void Start()
     {
         MenuPanel.SetActive(true);
-        SettingsPanel.SetActive(false);
         TextPanel1.SetActive(false);
-    }
-
-    public void showSettingsPanel()
-    {
-        SettingsPanel.SetActive(true);
-    }
-
-    public void hideSettingsPanel()
-    {
-        SettingsPanel.SetActive(false);
     }
 
     public void showTextPanel1()
@@ -45,7 +33,6 @@ public class MenuButtons1 : MonoBehaviour
     public void showMainPanel()
     {
         MenuPanel.SetActive(true);
-        SettingsPanel.SetActive(false);
         TextPanel1.SetActive(false);
     }
     // Update is called once per frame
