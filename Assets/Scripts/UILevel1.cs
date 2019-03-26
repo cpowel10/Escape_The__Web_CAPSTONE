@@ -1,31 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UILevel1 : MonoBehaviour
 {
     //public GameObject PuzzleGridEasy;
     public GameObject Signpost1;
+    public Text SPText1;
     public GameObject NPC1;
+    public Text NPCText1;
     public bool playerInRangeSign1;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        //PuzzleGridEasy.SetActive(false);
         Signpost1.SetActive(false);
         NPC1.SetActive(false);
     }
-
-    //public void ShowPuzzleGridEasy()
-    //{
-    //   PuzzleGridEasy.SetActive(true);
-    //}
-
-    //public void HidePuzzleGridEasy()
-    //{
-    //    PuzzleGridEasy.SetActive(false);
-    //}
 
     public void ShowSignPost1(Collider2D other)
     {

@@ -26,21 +26,25 @@ public class PuzzleEasy1 : MonoBehaviour
     public Sprite off;
     public Sprite on;
     public GameObject door;
+    public GameObject doorHard;
     public GameObject PuzzleGridEasy;
+    public Button close;
     // Start is called before the first frame update
     void Start()
     {
-        button00.image.sprite = off;
-        button01.image.sprite = on;
-        button02.image.sprite = off;
-        button10.image.sprite = on;
-        button11.image.sprite = off;
-        button12.image.sprite = on;
-        button20.image.sprite = off;
-        button21.image.sprite = on;
-        button22.image.sprite = off;
         door.SetActive(true);
-        //PuzzleGridEasy.SetActive(false);
+        doorHard.SetActive(true);
+        PuzzleGridEasy.SetActive(false);
+    }
+
+    public void openPuzzle()
+    {
+        PuzzleGridEasy.SetActive(true);
+    }
+
+    public void closePuzzle()
+    {
+        PuzzleGridEasy.SetActive(false);
     }
 
     public void Button00OnClick()
@@ -202,6 +206,7 @@ public class PuzzleEasy1 : MonoBehaviour
         {
             //Done
             door.SetActive(false);
+            doorHard.SetActive(false);
             PuzzleGridEasy.SetActive(false);
         }
     }

@@ -30,6 +30,11 @@ public class MenuButtons1 : MonoBehaviour
         SceneManager.LoadScene("Level_1");
     }
 
+    public void EndGame()
+    {
+        Application.Quit();
+    }
+
     public void showMainPanel()
     {
         MenuPanel.SetActive(true);
