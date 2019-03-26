@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int startingHealth = 100;
+    public int startingHealth;
     public int currentHealth;
+    public string hp;
 
     bool isDead;
     bool isDamaged;
@@ -13,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = startingHealth;
+        hp = (currentHealth + " / " + startingHealth).ToString();
     }
 
     // Update is called once per frame
