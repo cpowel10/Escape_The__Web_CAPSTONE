@@ -34,12 +34,12 @@ public class PuzzleEasy1 : MonoBehaviour
     {
         door.SetActive(true);
         doorHard.SetActive(true);
-        PuzzleGridEasy.SetActive(false);
     }
 
     public void openPuzzle()
     {
-        PuzzleGridEasy.SetActive(true);
+        if (Input.GetKeyDown("C"))
+            PuzzleGridEasy.SetActive(true);
     }
 
     public void closePuzzle()
