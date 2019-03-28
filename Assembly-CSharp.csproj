@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
+    <Compile Include="Assets\Scripts\SignPost1.cs" />
     <Compile Include="Assets\Scripts\UILevel1.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
