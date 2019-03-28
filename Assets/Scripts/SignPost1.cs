@@ -8,7 +8,7 @@ public class SignPost1 : MonoBehaviour
     public GameObject Signpost1;
     public Text SP1Text;
     public string SP1dialogue;
-    public bool SP1dialogueActive;
+    private bool SP1dialogueActive = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +21,7 @@ public class SignPost1 : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
             Debug.Log("Player out of range");
             //SP1dialogueActive = false;
@@ -31,7 +31,7 @@ public class SignPost1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Player out of range");
+        //Debug.Log("Player out of range");
     }
 
     // Update is called once per frame
