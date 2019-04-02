@@ -61,13 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\MenuButtons1.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
     <Compile Include="Assets\Scripts\SignPost1.cs" />
+    <Compile Include="Assets\Scripts\StartBattle.cs" />
     <Compile Include="Assets\Scripts\UILevel1.cs" />
+    <Compile Include="Assets\Scripts\UnitStats.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
