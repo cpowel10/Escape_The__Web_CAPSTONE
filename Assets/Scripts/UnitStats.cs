@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class UnitStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float health;
+    public float mana;
+    public float attack;
+    public float magic;
+    public float defense;
+    public float speed;
 }
