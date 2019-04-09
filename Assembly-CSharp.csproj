@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
     <Compile Include="Assets\Scripts\SignPost1.cs" />
     <Compile Include="Assets\Scripts\StartBattle.cs" />
+    <Compile Include="Assets\Scripts\TurnSystem.cs" />
     <Compile Include="Assets\Scripts\UILevel1.cs" />
     <Compile Include="Assets\Scripts\UnitStats.cs" />
     <Compile Include="Assets\SpawnEnemy.cs" />

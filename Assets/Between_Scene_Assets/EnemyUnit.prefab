@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f17d242929f7ee142ae0d74b0de67a02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuItem: {fileID: 0}
 --- !u!114 &6730523108612829463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,3 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbfdf16b39b0a634ea9d464edf4b233f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetEnemyUnitPrefab: {fileID: 2195852881362486192}
+  menuItemSprite: {fileID: 21300000, guid: e420c43dab3781c40bab1892aba31314, type: 3}
+  initialPosition: {x: 0, y: 0}
+  itemDimensions: {x: 0, y: 0}
+  killEnemyScript: {fileID: 7056190865095847523}

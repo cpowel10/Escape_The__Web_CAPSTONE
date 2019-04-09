@@ -28,14 +28,13 @@ public class CreateEnemyMenuItem : MonoBehaviour
         targetEnemyUnit.name = "Target" + this.gameObject.name;
         targetEnemyUnit.transform.localPosition = nextPosition;
         targetEnemyUnit.transform.localScale = new Vector2(0.7f, 0.7f);
-        targetEnemyUnit.GetComponent<Button>().onClick.AddListener(() =>
-      selectEnemyTarget());
+        targetEnemyUnit.GetComponent<Button>().onClick.AddListener(() => SelectEnemyTarget());
         targetEnemyUnit.GetComponent<Image>().sprite = this.menuItemSprite;
 
         killEnemyScript.menuItem = targetEnemyUnit;
     }
 
-    public void selectEnemyTarget()
+    public void SelectEnemyTarget()
     {
 
     }
