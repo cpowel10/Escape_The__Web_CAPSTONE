@@ -7,6 +7,7 @@ TagManager:
   - EnemyUnit
   - TargetEnemyUnit
   - PlayerUnit
+  - HUDCanvas
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - 
   - Enemy
-  - 
+  - Background
   - 
   - 
   - 
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1663884521
     locked: 0
