@@ -7,6 +7,9 @@ public class TurnSystem : MonoBehaviour
     private List<UnitStats> unitsStats;
 
     [SerializeField]
+    private GameObject playerParty;
+
+    [SerializeField]
     private GameObject actionsMenu, enemyUnitsMenu;
 
     // Start is called before the first frame update
@@ -50,11 +53,11 @@ public class TurnSystem : MonoBehaviour
 
             if (currentUnit.tag == "PlayerUnit")
             {
-                Debug.Log("Player unit acting");
+                this.playerParty.GetComponent<SelectUnit>().selectCurrentUnit(currentUnit.gameObject);
             }
             else
             {
-                Debug.Log("Enemy unit acting");
+                currentUnit.GetComponent<EnemyUnitAction>().act();
             }
         }
         else

@@ -8,6 +8,8 @@ TagManager:
   - TargetEnemyUnit
   - PlayerUnit
   - HUDCanvas
+  - targetsTag
+  - PlayerParty
   layers:
   - Default
   - TransparentFX

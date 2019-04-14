@@ -36,6 +36,8 @@ public class CreateEnemyMenuItem : MonoBehaviour
 
     public void SelectEnemyTarget()
     {
-
+        GameObject partyData = GameObject.Find("PlayerParty");
+        partyData.GetComponent<SelectUnit>().attackEnemyTarget(this.gameObject);
     }
+
 }

@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AttackTarget.cs" />
+    <Compile Include="Assets\PlayerUnitAction.cs" />
+    <Compile Include="Assets\Scripts\AddButtonCallback.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CreateEnemyMenuItem.cs" />
@@ -69,6 +71,8 @@
     <Compile Include="Assets\Scripts\MenuButtons1.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
+    <Compile Include="Assets\Scripts\SelectUnit.cs" />
+    <Compile Include="Assets\Scripts\ShowUnitStat.cs" />
     <Compile Include="Assets\Scripts\SignPost1.cs" />
     <Compile Include="Assets\Scripts\StartBattle.cs" />
     <Compile Include="Assets\Scripts\TurnSystem.cs" />
