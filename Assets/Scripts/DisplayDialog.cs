@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SignPost1 : MonoBehaviour
+public class DisplayDialog : MonoBehaviour
 {
     public GameObject Signpost1;
     public Text SP1Text;
@@ -15,23 +15,18 @@ public class SignPost1 : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player in range");
-            //SP1dialogueActive = true;
+            SP1dialogueActive = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player out of range");
-            //SP1dialogueActive = false;
+            SP1dialogueActive = false;
+            Signpost1.SetActive(false);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Debug.Log("Player out of range");
     }
 
     // Update is called once per frame

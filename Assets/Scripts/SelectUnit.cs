@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SelectUnit : MonoBehaviour
 {
-
     private GameObject currentUnit;
 
     private GameObject actionsMenu, enemyUnitsMenu;
@@ -29,6 +29,8 @@ public class SelectUnit : MonoBehaviour
         this.currentUnit = unit;
 
         this.actionsMenu.SetActive(true);
+
+        this.currentUnit.GetComponent<PlayerUnitAction>().updateHUD();
     }
 
     public void selectAttack(bool physical)

@@ -25,21 +25,18 @@ public class PuzzleEasy1 : MonoBehaviour
     private bool On22;
     public Sprite off;
     public Sprite on;
-    public GameObject door;
     public GameObject doorHard;
     public GameObject PuzzleGridEasy;
     public Button close;
     // Start is called before the first frame update
     void Start()
     {
-        door.SetActive(true);
         doorHard.SetActive(true);
     }
 
     public void openPuzzle()
     {
-        if (Input.GetKeyDown("C"))
-            PuzzleGridEasy.SetActive(true);
+        PuzzleGridEasy.SetActive(true);
     }
 
     public void closePuzzle()
@@ -205,7 +202,6 @@ public class PuzzleEasy1 : MonoBehaviour
             On11 && On12 && On20 && On21 && On22)
         {
             //Done
-            door.SetActive(false);
             doorHard.SetActive(false);
             PuzzleGridEasy.SetActive(false);
         }
