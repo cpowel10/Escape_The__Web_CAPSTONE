@@ -33,6 +33,7 @@ public class DisplayPuzzle : MonoBehaviour
         {
             if (Puzzle.activeInHierarchy)
             {
+                
                 Puzzle.SetActive(false);
             }
             else

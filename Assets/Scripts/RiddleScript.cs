@@ -9,18 +9,26 @@ public class RiddleScript : MonoBehaviour
     public GameObject Riddle;
     public InputField input;
     public string answer;
+    private string err = "Incorrect";
+    public string pass;
     public Text error;
+    public Button close;
 
     public void Text_Changed(string newText)
     {
         if(newText == answer)
         {
             door.SetActive(false);
-            Riddle.SetActive(false);
+            error.text = pass;
         }
         else
         {
-            error.text = "Incorrect";
+            error.text = err;
         }
+    }
+
+    public void CloseRiddle()
+    {
+        Riddle.SetActive(false);
     }
 }

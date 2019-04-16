@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\CreateEnemyMenuItem.cs" />
     <Compile Include="Assets\Scripts\DisplayDialog.cs" />
+    <Compile Include="Assets\Scripts\DisplayDialogLvl3.cs" />
     <Compile Include="Assets\Scripts\DisplayPuzzle.cs" />
     <Compile Include="Assets\Scripts\EnemyUnitAction.cs" />
     <Compile Include="Assets\Scripts\KillEnemy.cs" />
@@ -75,7 +76,9 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
     <Compile Include="Assets\Scripts\PuzzleHard1.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\RiddleScript.cs" />
+    <Compile Include="Assets\Scripts\RiddleScript2.cs" />
     <Compile Include="Assets\Scripts\SelectUnit.cs" />
     <Compile Include="Assets\Scripts\ShowUnitHealth.cs" />
     <Compile Include="Assets\Scripts\ShowUnitMana.cs" />

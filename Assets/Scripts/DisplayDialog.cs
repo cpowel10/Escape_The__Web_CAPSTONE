@@ -14,7 +14,6 @@ public class DisplayDialog : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player in range");
             SP1dialogueActive = true;
         }
     }

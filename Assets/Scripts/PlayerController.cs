@@ -22,6 +22,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         playerMoving = false;
+        if (Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
 
         if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {
