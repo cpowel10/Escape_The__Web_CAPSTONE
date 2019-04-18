@@ -254,6 +254,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 2248034395648738905, guid: 56e6b009aafacb4489e48d1341a3536b,
+        type: 3}
+      propertyPath: TextPanel1
+      value: 
+      objectReference: {fileID: 47550388}
     - target: {fileID: 2248034395648738906, guid: 56e6b009aafacb4489e48d1341a3536b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -309,11 +314,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2248034395648738905, guid: 56e6b009aafacb4489e48d1341a3536b,
-        type: 3}
-      propertyPath: TextPanel1
-      value: 
-      objectReference: {fileID: 47550388}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56e6b009aafacb4489e48d1341a3536b, type: 3}
 --- !u!1001 &3645253270596709203
@@ -585,10 +585,13 @@ PrefabInstance:
     - target: {fileID: 8815814893650307244, guid: 4cffbed6467f15d4fa8f06172b546364,
         type: 3}
       propertyPath: m_Text
-      value: Thank you for taking on the challenge of saving the web from the evil
+      value: 'Thank you for taking on the challenge of saving the web from the evil
         RED ROOM Monster. You will first go test yourself in the silk road, and if
         you manage to pass all of the tests, you will be tasked to go to the RED ROOM
         and clear out the monster and save the prisoners there.
+
+
+        Use the arrow keys or WASD to move, and the spacebar to interact.'
       objectReference: {fileID: 0}
     - target: {fileID: 8815814893650307244, guid: 4cffbed6467f15d4fa8f06172b546364,
         type: 3}

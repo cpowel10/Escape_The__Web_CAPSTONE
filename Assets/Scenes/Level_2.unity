@@ -918,7 +918,8 @@ MonoBehaviour:
     final doors, you must answer this riddle:
 
 
-    "You find me in December, but not in any other month. What am I?'
+    I''m a word that''s hardly there. Take away my start, and I''m an herbal flair.
+    What am I?'
 --- !u!222 &162806078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5937,7 +5938,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1 &1058810728
 GameObject:
@@ -6577,7 +6578,7 @@ MonoBehaviour:
   door: {fileID: 1222941462}
   Riddle: {fileID: 2131341636}
   input: {fileID: 1256011287}
-  answer: D
+  answer: Sparsely
   pass: Correct!! My door is now open
   error: {fileID: 598429200}
   close: {fileID: 87257595}
