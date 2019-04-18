@@ -95,7 +95,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-acf1e16dc9a405e5625a1e0f38848c6a Assembly-CSharp.dll:.UILevel2
+83a791d1ebd8d0981792867e90ae8545 Assembly-CSharp.dll:.UILevel2
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8747051d8c53856e2def93af4f2a8b08 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -205,3 +205,4 @@ a67340100e016e3e889a5b544ef753de Assembly-CSharp.dll:.PuzzleEasy1
 6938ccda7034578a1a9affbdd839f112 Assembly-CSharp.dll:.AddButtonCallback
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 a2037a6d3d69e2ae4365852f05289f5a Assembly-CSharp.dll:Tiled2Unity.TmxObject
+7f74bc12e65bbfda410ee9ba0cd2c1c5 Assembly-CSharp.dll:.PuzzleHard5x5

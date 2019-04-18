@@ -7,7 +7,7 @@ public class UILevel2 : MonoBehaviour
     public GameObject Riddle1;
     public GameObject Riddle2;
     public GameObject Riddle3;
-    public GameObject Riddle4;
+    public GameObject FinalPuzzle;
     public GameObject SP1;
     public GameObject SP2;
     public GameObject SP3;
@@ -18,7 +18,7 @@ public class UILevel2 : MonoBehaviour
         Riddle1.SetActive(false);
         Riddle2.SetActive(false);
         Riddle3.SetActive(false);
-        Riddle4.SetActive(false);
+        FinalPuzzle.SetActive(false);
         SP1.SetActive(false);
         SP2.SetActive(false);
         SP3.SetActive(false);

@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PuzzleEasy1.cs" />
     <Compile Include="Assets\Scripts\PuzzleHard1.cs" />
+    <Compile Include="Assets\Scripts\PuzzleHard5x5.cs" />
     <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\RiddleScript.cs" />
     <Compile Include="Assets\Scripts\RiddleScript2.cs" />
